@@ -31,4 +31,4 @@ These scripts cycle through all accounts on the server, assuming they use WordPr
 
 `./auto-plugin.update.sh` - Updates all plugins that have updates available on the account.
 
-`./auto-theme.update.sh` - Updates all themes that have updates available on the account.
+`./auto-theme-update.sh` - Updates all themes that have updates available on the account.
