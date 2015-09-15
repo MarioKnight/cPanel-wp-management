@@ -19,7 +19,11 @@ These scripts cycle through all accounts on the server, assuming they use WordPr
 `./plugin-update.sh *plugin name*` - Searches for the inputted plugin with the accounts and updates it if it is found.  This must be entered as the plugin's folder name.  For example, "wordpress-seo" should be used rather than "Yoast SEO":
  `./plugin-update.sh wordpress-seo`
 
- `./plugin-search.sh *plugin name*` - Searches the accounts for the inputted plugin and returns its status.  This must be entered as the plugin's folder name.
+`./plugin-search.sh *plugin name*` - Searches the accounts for the inputted plugin and returns its status for each account.  This must be entered as the plugin's folder name.
+
+`./plugin-install.sh *plugin name` - Will install and activate the inputted plugin from the Wordpress.org repo to each account.  This must be entered as the plugin's folder name.
+
+`./plugin-remove.sh *plugin name*` - Will deactivate and uninstall the inputted plugin from the accounts.  This must be entered as the plugin's folder name.
 
 `./theme-status.sh` - Lists all of the themes and their statuses.
 
